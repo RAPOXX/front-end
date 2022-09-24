@@ -1,0 +1,55 @@
+
+.container_agenda {
+    width: 350px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    display: flex;
+}
+
+.container_agenda div {
+    width: 100%;
+}
+
+
+.container_agenda .atividade {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.container_agenda .atividade button {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 90px;
+    height: 35px;
+    position: absolute;
+    right: 10px;
+}
+
+.container_agenda .atividade button:hover {
+    background: rgb(209, 4, 4);
+    cursor: pointer;
+}
+
+.container_agenda h1{
+    font-size: 25px;
+    margin: 0 5px;
+}
+
+.container_agenda .button_adicionar button {
+    width: 100px;
+    height: 40px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin: 20px 0;
+}

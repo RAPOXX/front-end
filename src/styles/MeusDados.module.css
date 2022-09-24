@@ -1,0 +1,28 @@
+.container_dados {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.container_dados p {
+    margin: 10px 0;
+}
+
+.input_flex {
+    display: flex;
+    align-items: center;
+}
+
+.input_flex button {
+    width: 90px;
+    height: 25px;
+    border: none;
+    background: rgb(0, 89, 255);
+    color: white;
+    margin: 0 10px;
+    border-radius: 3px;
+}
